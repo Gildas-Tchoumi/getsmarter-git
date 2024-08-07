@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+  
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem ;
+    background-color: rgb(12, 12, 88);
+}
+.nav>ul{
+    display: flex;
+    gap: 2rem;
+}
+.nav>ul>li{
+    list-style: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: white;
+}
+p{
+    color: white;
+}
