@@ -1,0 +1,641 @@
+@import url("./base.css");
+
+
+
+main {
+	margin-top: 62px;
+}
+
+/******************START HEADER******************/
+header {
+	background-color: white;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.4);
+	padding: 16px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 100;
+}
+
+header>div {
+	max-width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+h2 {
+	text-shadow: 2px 2px 1px rgb(187, 185, 185);
+	letter-spacing: 0.5em;
+}
+
+span {
+	color: rgb(245, 171, 35);
+}
+
+a {
+	text-decoration: none;
+	letter-spacing: 0.2em;
+	color: black;
+}
+
+
+a:hover {
+	background-color: rgb(245, 171, 35);
+	border-radius: 6px;
+	padding: 7px 10px 7px 10px;
+	font-size: 0.9em;
+	box-shadow: 1px 1px 0.1px rgb(219, 217, 217),
+		-1px -1px 0.1px rgb(219, 217, 217);
+
+}
+
+
+/******************END HEADER*****************/
+
+/******************START SECTION LANDING******************/
+#landing {
+	height: calc(100vh - 165px);
+	background-color: rgb(250, 245, 245);
+}
+
+#landing img {
+	height: 60vh;
+	width: 18vw;
+	position: relative;
+	border-radius: 0.3rem;
+
+
+}
+
+.container1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding-top: 10vh;
+	width: 100%;
+}
+
+strong {
+	letter-spacing: 0.2em;
+	font-size: 3em;
+	text-decoration: none;
+}
+
+p.freelance {
+	letter-spacing: 0.2em;
+	font-weight: bold;
+}
+
+li.reseau a {
+	margin-right: 2.2em;
+}
+
+.reseau {
+	display: inline-block;
+}
+
+.left>a {
+	background-color: rgb(245, 171, 35);
+	border-radius: 6px;
+	padding: 7px 10px 7px 10px;
+	font-size: 0.9em;
+	box-shadow: 1px 1px 0.1px rgb(219, 217, 217),
+		-1px -1px 0.1px rgb(219, 217, 217);
+}
+
+.right img {
+	align-items: center;
+}
+
+.hr1 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 5em;
+}
+
+.block {
+	position: relative;
+
+}
+
+.block::before {
+	content: "";
+	border: 3px solid orange;
+	top: 0.9rem;
+	right: 0.9rem;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+
+
+}
+
+/******************END SECTION LANDING******************/
+
+/******************START SECTION ABOUT******************/
+.container2 {
+	display: flex;
+	justify-content: space-around;
+	padding: 10vh 0 10vh 0;
+}
+
+#about img {
+	height: 60vh;
+	width: 18vw;
+	position: relative;
+	border-radius: 0.3rem;
+
+}
+
+.text {
+	padding-top: 3em;
+}
+
+.text>a {
+	background-color: rgb(245, 171, 35);
+	border-radius: 6px;
+	padding: 7px 10px 7px 10px;
+	font-size: 0.9em;
+	box-shadow: 1px 1px 0.1px rgb(235, 235, 235),
+		-1px -1px 0.1px rgb(236, 236, 236);
+}
+
+h1 {
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	/* display: block; */
+}
+
+.hr2 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 3em;
+}
+
+.block2 {
+	position: relative;
+
+}
+
+.block2::before {
+	content: "";
+	border: 3px solid orange;
+	top: 0.9rem;
+	left: 0.9rem;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+}
+/******************END SECTION LANDING******************/
+
+/******************START SECTION services******************/
+#services {
+	background-color: rgb(218, 218, 218);
+	height: 80vh;
+
+}
+
+.services {
+	text-align: center;
+	padding: 10vh 0 10vh 0;
+}
+
+
+.block3 {
+	padding: 10vh 0 10vh 0;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.webdev,
+.webdesign,
+.appdesign {
+	box-shadow: 1px 1px 0.1px white,
+		-1px -1px 0.1px white;
+	border-radius: 10px;
+	padding-top: 40px;
+	background-color: white;
+	width: 26vw;
+	height: 46vh;
+	transition-duration: 0.5s;
+	transition-property: all;
+
+
+}
+
+/* 
+.webdesign {
+	box-shadow: 1px 1px 0.1px white,
+		-1px -1px 0.1px white;
+	border-radius: 10px;
+	padding-top: 40px;
+	background-color: white;
+	width: 26vw;
+	height: 46vh;
+}
+
+.appdesign {
+	box-shadow: 1px 1px 0.1px white,
+		-1px -1px 0.1px white;
+	border-radius: 10px;
+	padding-top: 40px;
+	background-color: white;
+	width: 26vw;
+	height: 46vh;
+} */
+
+.hr3 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 3em;
+	margin-left: 48%;
+}
+
+.hr4,
+.hr5,
+.hr6,
+.hr7 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 3em;
+	margin-left: 44%;
+	margin-top: 5px;
+
+}
+
+/* 
+.hr5 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 3em;
+	margin-left: 44%;
+	margin-top: 5px;
+}
+
+.hr6 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 3em;
+	margin-left: 44%;
+	margin-top: 5px;
+} */
+.webdev:hover,
+.appdesign:hover,
+.webdesign:hover {
+	background-color: rgb(245, 171, 35);
+	color: white;
+	width: 50vw;
+	height: 60vh;
+}
+
+/******************END SECTION services******************/
+
+/******************start SECTION latest******************/
+
+
+.latest {
+	padding-left: 35%;
+	padding-top: 4em;
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+}
+
+.hr7 {
+	border: 2px solid rgb(245, 171, 35);
+	width: 3em;
+	margin-left: 44%;
+	margin-top: 5px;
+
+}
+
+/******************END SECTION latest******************/
+/******************END SECTION images******************/
+
+.images {
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	padding: 4em;
+	column-gap: 1em;
+}
+
+.img34 {
+	display: flex;
+	column-gap: 1em;
+
+
+}
+
+
+.img1 img {
+	width: 29vw;
+	height: 57vh;
+	border-radius: 5px;
+
+}
+
+.img2 img {
+	width: 49vw;
+	height: 27vh;
+	margin-bottom: 1em;
+	border-radius: 5px;
+
+
+}
+
+.img3 img {
+	width: 24vw;
+	height: 27vh;
+	border-radius: 5px;
+
+}
+
+.img4 img {
+	width: 24vw;
+	height: 27vh;
+	border-radius: 5px;
+}
+
+:root {
+	--primary-color-1: rgb(81, 60, 6);
+	--primary-color-2: rgb(122, 92, 16);
+	--primary-color-3: rgb(162, 124, 26);
+	--primary-color-4: rgb(200, 153, 45);
+	--primary-color-5: rgb(233, 185, 73);
+	--primary-color-6: rgb(255, 250, 235);
+	--secondary-color-1: rgb(15, 42, 66);
+	--secondary-color-2: rgb(36, 58, 82);
+	--secondary-color-3: rgb(50, 77, 103);
+	--secondary-color-4: rgb(72, 100, 127);
+	--white-color: #fff;
+	--transition: all 300ms linear;
+	--font-primary: "Roboto", sans-serif;
+	--font-secondary: "Open Sans", sans-serif;
+	--max-width: 1170px;
+}
+
+.menu {
+	display: none;
+	font-size: 2.4rem;
+	color: var(--secondary-color-1);
+}
+
+@media all and (max-width:768px) {
+	nav {
+		display: none;
+	}
+
+	.menu {
+		display: block;
+	}
+}
+
+/******************END SECTION latest******************/
+
+/******************START SECTION TIMELINE******************/
+
+#timeline{
+	text-align: center;
+	margin: 2rem;
+
+}
+.timeline h3{letter-spacing: 0.1em;
+	font-weight: bold;
+	
+}
+.b2020,.b2019, .b2018, .b2017, .b2016, .b2015{
+	border: 1.5px dashed rgb(245, 171, 35);
+	display: inline-block;
+	width: 30rem;
+padding:  3rem 1.5rem 3rem 1.5rem;
+border-radius: 2rem;
+	
+}
+.b2020{
+	border-top-right-radius: 0;
+border-top: 0;
+border-left: 0;
+border-bottom: 0;
+margin-left: 4rem;
+}
+
+.b2020::after {
+    content: counter(yvann);
+    background-color: rgb(22, 12, 168);
+    color: aliceblue;
+    width: 1.2em;
+    margin-left: 27.9rem;
+    display: inline-block;
+    /* position: absolute; */
+    border-radius: 100%;
+    font-weight: bold;
+	margin-top: -20rem;
+}
+
+.b2020 {position: relative;   counter-reset: yvann;
+    list-style: none;
+}
+
+.b2020 {
+    
+    counter-increment: yvann;
+}
+.b2019{
+border-right: 0;
+border-bottom:0;
+border-top-right-radius: 0;
+
+}
+.b2018{
+	border-bottom:0;
+	border-left: 0;
+	border-top-left-radius: 0;
+margin-left: 4rem;
+
+
+}
+.b2017{
+	border-bottom:0;
+	border-right: 0;
+	border-top-right-radius: 0;
+
+}
+.b2016{
+	border-bottom:0;
+	border-left: 0;
+	border-top-left-radius: 0;
+margin-left: 4rem;
+
+
+}
+.b2015{
+	border-bottom:0;
+	border-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+
+}
+.hr9{
+	border: 2px solid rgb(245, 171, 35);
+	width: 3.5em;
+	margin-left: 48%;
+	margin-bottom: 3rem;
+}
+h3{
+	padding-right: 100%;
+}
+/******************END SECTION TIMELINE******************/
+/******************START SECTION BLOG******************/
+.bh1 {
+	margin-left: 48%;
+	padding-top: 10vh;
+
+}
+
+.hr8 {
+	width: 3.5em;
+	margin-left: 48%;
+	margin-bottom: 10vh;
+	border: 2px solid rgb(245, 171, 35);
+}
+
+.description {
+	margin: 10px;
+}
+
+figcaption {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	margin: 10px;
+}
+
+.fig {
+	border-radius: 1em 1em 0em 0em;
+	height: 300px;
+	width: 400px;
+}
+
+figure {
+
+	height: 300px;
+	width: 400px;
+}
+
+.blog {
+	display: flex;
+	justify-content: space-around;
+	transform-style: preserve-3d;
+	transition: all 2s;
+}
+
+#blog {
+	background-color: rgb(216, 232, 245);
+	height: 220vh;
+}
+
+.figure1,
+.figure2,
+.figure3,
+.figure4 {
+	background-color: white;
+	border: 1px solid rgb(221, 218, 218);
+	border-radius: 1em;
+	height: 30.7rem;
+	transition: all 2s cubic-bezier(0.5, 0.5, 0.3, 1.8);
+	background-position: center center;
+	transform-style: preserve-3d;
+}
+
+.figure1:hover,
+.figure2:hover,
+.figure3:hover,
+.figure4:hover {
+	transform: rotate3d(0, 30, 0, 180deg);
+}
+
+.front,
+.back {
+	position: relative;
+	backface-visibility: hidden;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	backface-visibility: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
+.back {
+	transform: rotate3d(0, 30, 0, 180deg);
+	border-radius: 1em;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	margin-left: 9em;
+	margin-top: 15em;
+}
+
+.aback {
+	background-color: orange;
+	width: 3em;
+	border-radius: 0.3em;
+	height: 0.8em;
+}
+
+.figure4 {
+	display: inline-block;
+	margin: 6em 0em 0em 1.5em;
+
+}
+
+.dernier {
+	display: flex;
+	justify-content: space-between;
+	padding: 0rem 1rem 0rem 1rem;
+
+}
+
+.bulle {
+	border-radius: 100%;
+	width: 1.7em;
+	height: 2em;
+}
+
+/******************END SECTION BLOG******************/
+
+/******************START SECTION FOOTER******************/
+
+.footer {
+	background-color: black;
+	height: 25vh;
+	text-align: center;
+	padding: 2em;
+
+
+}
+
+li.fou a {
+
+	border-radius: 3em;
+	padding: 7px 10px 7px 10px;
+	font-size: 1.5em;
+	box-shadow: 1px 1px 0.1px rgb(219, 217, 217),
+		-1px -1px 0.1px rgb(219, 217, 217);
+	text-decoration: none;
+	margin-left: 1em;
+	color: rgb(245, 171, 35);
+}
+
+.footer p {
+	color: rgb(105, 183, 231);
+}
+
+/******************END SECTION FOOTER******************/
